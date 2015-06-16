@@ -22,3 +22,9 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Binaries
+client
+
+# OS X Files
+.DS_Store
