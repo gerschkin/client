@@ -39,7 +39,7 @@ func main() {
 
 	// Send a test
 	fmt.Println(send(rpc.Request{
-		A: "aaayyyy",
+		Type: rpc.REQUEST_PING,
 	}))
 }
 
